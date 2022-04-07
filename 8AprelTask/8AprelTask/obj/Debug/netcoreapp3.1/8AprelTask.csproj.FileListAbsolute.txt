@@ -1,0 +1,14 @@
+C:\Users\Hp\source\repos\8AprelTask\8AprelTask\bin\Debug\netcoreapp3.1\8AprelTask.exe
+C:\Users\Hp\source\repos\8AprelTask\8AprelTask\bin\Debug\netcoreapp3.1\8AprelTask.deps.json
+C:\Users\Hp\source\repos\8AprelTask\8AprelTask\bin\Debug\netcoreapp3.1\8AprelTask.runtimeconfig.json
+C:\Users\Hp\source\repos\8AprelTask\8AprelTask\bin\Debug\netcoreapp3.1\8AprelTask.runtimeconfig.dev.json
+C:\Users\Hp\source\repos\8AprelTask\8AprelTask\bin\Debug\netcoreapp3.1\8AprelTask.dll
+C:\Users\Hp\source\repos\8AprelTask\8AprelTask\bin\Debug\netcoreapp3.1\8AprelTask.pdb
+C:\Users\Hp\source\repos\8AprelTask\8AprelTask\obj\Debug\netcoreapp3.1\8AprelTask.csproj.AssemblyReference.cache
+C:\Users\Hp\source\repos\8AprelTask\8AprelTask\obj\Debug\netcoreapp3.1\8AprelTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\source\repos\8AprelTask\8AprelTask\obj\Debug\netcoreapp3.1\8AprelTask.AssemblyInfoInputs.cache
+C:\Users\Hp\source\repos\8AprelTask\8AprelTask\obj\Debug\netcoreapp3.1\8AprelTask.AssemblyInfo.cs
+C:\Users\Hp\source\repos\8AprelTask\8AprelTask\obj\Debug\netcoreapp3.1\8AprelTask.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\8AprelTask\8AprelTask\obj\Debug\netcoreapp3.1\8AprelTask.dll
+C:\Users\Hp\source\repos\8AprelTask\8AprelTask\obj\Debug\netcoreapp3.1\8AprelTask.pdb
+C:\Users\Hp\source\repos\8AprelTask\8AprelTask\obj\Debug\netcoreapp3.1\8AprelTask.genruntimeconfig.cache
