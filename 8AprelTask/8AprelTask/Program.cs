@@ -33,19 +33,24 @@ namespace _8AprelTask
                         students.Add(new Student(Fullname));
                         break;
                     case "2":
-                        Console.WriteLine("Imtahan Adini Daxil edin");
-                        string examName = Console.ReadLine();
-                        while (!userValidator.CheckDictionary(examName))
+                        int no = CheckInt("No degeri daxil edin:", "No degeri duzgun daxil edin:");
+                        if (students.Exists(x => x.No == no))
                         {
-                            Console.WriteLine("Bele Imtahan var Yeniden daxil edin:");
-                            examName = Console.ReadLine();
+                            Console.WriteLine("Imtahan Adini Daxil edin");
+                            string examName = Console.ReadLine();
+                            while (!userValidator.CheckDictionary(examName))
+                            {
+                                Console.WriteLine("Bele Imtahan var Yeniden daxil edin:");
+                                examName = Console.ReadLine();
+                            }
+                            double point = CheckDouble("Qiymeti daxil edin:", "Qiymeti duzgun daxil edin");
+                            userCRUD.AddExam(examName, point);
                         }
-                        double point = CheckDouble("Qiymeti daxil edin:", "Qiymeti duzgun daxil edin");
-                        userCRUD.AddExam(examName, point);
-
+                        else
+                            Console.WriteLine("Bele bir no yoxdur!!");
                         break;
                     case "3":
-                        int no = CheckInt("No degeri daxil edin:", "No degeri duzgun daxil edin:");
+                        no = CheckInt("No degeri daxil edin:", "No degeri duzgun daxil edin:");
                         if (students.Exists(x => x.No == no))
                         {
                             Console.WriteLine("Axtardiginiz imtahani daxil edin:");
@@ -57,7 +62,8 @@ namespace _8AprelTask
                             }
                             Console.WriteLine(userCRUD.GetExamResult(searchExam));
                             break;
-                        }else
+                        }
+                        else
                             Console.WriteLine("Bele bir no yoxdur!!");
                         break;
                     case "4":
@@ -65,7 +71,8 @@ namespace _8AprelTask
                         if (students.Exists(x => x.No == no))
                         {
                             userCRUD.ShowInfo();
-                        }else
+                        }
+                        else
                             Console.WriteLine("Bele id Yoxdur");
                         break;
                     case "5":
@@ -86,8 +93,9 @@ namespace _8AprelTask
                             string removeExamName = Console.ReadLine();
                             userCRUD.RemoveExam(removeExamName);
                             break;
-                        }else
-                            Console.WriteLine("Bele bir No yoxdur");                       
+                        }
+                        else
+                            Console.WriteLine("Bele bir No yoxdur");
                         break;
                     case "0":
                         check = false;
