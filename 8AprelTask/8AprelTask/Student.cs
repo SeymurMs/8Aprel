@@ -6,13 +6,16 @@ namespace _8AprelTask
 {
     internal class Student
     {
-        public Student(string fullName, int no)
+        public Student(string fullName)
         {
-            this.No = no;
+            _no++;
+            No = _no;
+            
             this.Fullname = fullName;
         }
 
-        public int No { get; set; }
+        static int _no;
+        public int No { get; }
         public string Fullname { get; set; }        
 
     }
